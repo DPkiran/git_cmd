@@ -52,3 +52,5 @@ git commit -a -m "changes made"
 git status
 git push origin 
 
+//now pull and push branches
+
