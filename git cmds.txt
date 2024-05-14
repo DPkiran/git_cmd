@@ -46,3 +46,9 @@ git status
 //another short way 
 git pull origin //pulls all the updated code in github to the current branch on your local repo
 
+
+//make changes like create,delete or modify existing files
+git commit -a -m "changes made"
+git status
+git push origin 
+
