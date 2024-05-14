@@ -30,3 +30,16 @@ git merge m_2
 git commit -m "master branch save"
 git log
 
+//github -> local repo
+
+//create a new repo in github and copy its http url
+git remote add origin <url>
+git push -u origin master // pushes all the changes and code to the repo created in the github
+
+git fetch origin 
+git status
+git log [or] git log origin/master 
+git diff origin/master //to see the difference between local master and origin
+git merge origin/master //we are merging the origin/master branch to the local master branch
+git status
+
