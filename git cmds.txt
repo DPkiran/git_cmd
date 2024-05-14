@@ -14,3 +14,19 @@ git status
 git commit -m "first save" //firs commit after staging all the files
 git commit -a -m "second save" //second commit that only commits the modification and deleted files, and has not tracked the new files that were added
 
+git branch 
+git branch m_2
+//make changes like create, delete or modify files
+git add .
+git status
+git commit -m "first branch save"
+git log
+git checkout master
+git status
+//you'll see that the changes made in the new branch "m_2" does not refect in the master branch 
+//used to alter the code for changes without altering the original code
+git merge m_2
+//this will combines the branch and makes the changes in the master comparing the branch
+git commit -m "master branch save"
+git log
+
