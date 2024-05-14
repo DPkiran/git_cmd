@@ -52,3 +52,5 @@ git commit -a -m "changes made"
 git status
 git push origin 
 
+//try to create branches and merge them in github
+
