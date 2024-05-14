@@ -52,6 +52,8 @@ git commit -a -m "changes made"
 git status
 git push origin 
 
+
+//now pull and push branches
 //try to create branches and merge them in github
 git pull
 git status
@@ -66,4 +68,5 @@ git checkout -b m_1 //creates a branch
 git status
 git commit -a -m "updated git_cmd"
 git push origin m_1 //pushed the local branch to the origin master
+
 
