@@ -55,6 +55,7 @@ git push origin
 //try to create branches and merge them in github
 git pull
 git status
+git branch -r //for remote branches only
 git branch -a //displays all the branches local repo + origin/master
 git checkput m_2
 git status
