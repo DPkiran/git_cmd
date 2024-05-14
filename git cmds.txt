@@ -61,4 +61,9 @@ git checkput m_2
 git status
 git branch
 
+git checkout -b m_1 //creates a branch 
+//make changes in files
+git status
+git commit -a -m "updated git_cmd"
+git push origin m_1 //pushed the local branch to the origin master
 
