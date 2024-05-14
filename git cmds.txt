@@ -1,0 +1,16 @@
+git --version
+git config --gloabl user.name "DPkiran"
+git config --global user.email "dpkiran24@gmail.com"
+
+mkdir git_file 
+cd git_file
+dir
+
+git init
+//make changes in folder like : change ,create , delete , or add files or data inside the files
+git status
+git add index.html [or] git add --all/ git add -A //staging command
+git status
+git commit -m "first save" //firs commit after staging all the files
+git commit -a -m "second save" //second commit that only commits the modification and deleted files, and has not tracked the new files that were added
+
