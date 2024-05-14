@@ -43,3 +43,6 @@ git diff origin/master //to see the difference between local master and origin
 git merge origin/master //we are merging the origin/master branch to the local master branch
 git status
 
+//another short way 
+git pull origin //pulls all the updated code in github to the current branch on your local repo
+
